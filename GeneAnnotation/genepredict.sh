@@ -1,3 +1,2 @@
 #!/bin/bash
-/disk10/biosoft/augustus-3.2.2/bin/augustus --AUGUSTUS_CONFIG_PATH=/disk10/biosoft/augustus-3.2.2/config --species=galdieria --strand=both --genemodel=complete --codingseq=on --sample=0 --cds=on --gff3=on --UTR=off ../remain.fa.masked --outfile=augustus.masked &
- 
+/disk7/soft/augustus-3.2.2/bin/augustus --strand=both --genemodel=complete --AUGUSTUS_CONFIG_PATH=/disk7/soft/augustus-3.2.2/config --gff3=on --hintsfile=rnahint.gff --extrinsicCfgFile=extrinsic.MPE.cfg --species=galdieria ../remain.fa
