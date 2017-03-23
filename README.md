@@ -19,3 +19,7 @@ We used two methods to identify the repeat contents in K. alvarezii genome, homo
 Gene prediction and functional annotation
 Approaches for gene model prediction, which includes homology detection, expression evidence based predictions and ab initio gene predictions, were then combined to get consensus gene structures. To identify homology patterns in K. alvarezii, the BLASTX search was conducted against the NCBI non-redundant protein database with E-value <10-5, and then the proteins were aligned for precise structure by genewise, allowing for introns and frameshifting errors. For expression evidences, published ESTs, transcripts and RNA-seq datasets were aligned to the genome. After measuring and comparing a variety of programs, AUGUSTUS was used for ab initio gene prediction. Gene model parameters for the programs were trained from long transcripts and known Kappaphycus genes processed by PASA. And then, all these de novo gene predictions, homology based methods and RNA-seq data were combined into consensus gene structures using EVidenceModeler (EVM) and optimized by manual correction.
 
+For functional assignment, the BLAST search was carried out against NR, Swissprot and TrEMBL protein database [24] with E-value '<10-5'. While InterProScan program was used to perform functional classification of Gene Ontology (GO) of the genes, and also generate family information from Interpro. Pathway analysis was performed using the Kyoto Encyclopedia of Genes and Genomes (KEGG) [26] annotation service KAAS with the default bitscore threshold of 60.
+
+
+
